@@ -18,3 +18,26 @@ arr4=np.arange(1,101,2)
 print(arr4)
 shufflearr=np.random.permutation(np.arange(1,10))
 print(shufflearr)
+sorted=np.sort(shufflearr)
+print(sorted)
+#omework: Make a choice based program where you can add and subtract two matrices 2 or 3 d list by taking matrices and operation as user input.
+# printing a random number
+num=np.random.randint(1,10)
+print(num)
+#printing a random array
+array=np.random.rand(3,6)
+print(array)
+#reshaping the array
+reshape=array.reshape(2,9)
+print(reshape)
+#to make it an integer put np.arange
+array2=np.arange(1,37)
+print(array2)
+reshape2=array2.reshape(4,9)
+print(reshape2)
+reshape3=array2.reshape(2,18)
+print(reshape3)
+reshape4=array2.reshape(12,3)
+print(reshape4)
+reshape5=array2.reshape(6,6)
+print(reshape5)
